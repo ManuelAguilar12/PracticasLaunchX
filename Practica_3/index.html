@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> POKE API</title>
+    <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+    <p class="relleno"> Pokedex LaunchX </p>
+    <div class="marco">
+        <div class="Foto">
+            <img src="./image.jpeg" alt="Pokemon" id="pokeImg" class="estilo">
+            <div class="nombre"> <p id="quienes"> </p> </div>
+        </div>
+        <div class="info">
+            <input type="text" placeholder="Pokemon Name" id="pokeName" name="pokeName">
+            <button onclick="fetchPokemon()"> Buscar </button>
+            <div class="pantalla" id="abilities">
+            </div>
+        </div>
+    </div>
+</body>
+<footer>
+    <script src="./api.js"></script>
+</footer>
+</html>
